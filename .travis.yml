@@ -12,6 +12,8 @@ addons:
     - freeglut3-dev
     - colorgcc
     - libgd-dev
+    - cmake
+    - cmake-data
 
 services:
 - docker
