@@ -6,6 +6,8 @@ mkdir build || true
 
 cd build
 
+echo "cmake path is:  `which cmake` "
+
 if cmake .. ; then
     echo "'cmake ..' succesfull."
 else
